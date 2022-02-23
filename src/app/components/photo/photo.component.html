@@ -1,0 +1,6 @@
+<div class="card animate_animated animate__bounceIn" *ngIf="data">
+    <img [src]="data.img_src" class="card-img-top" alt="rover photo">    
+    <div class="card-body">      
+      <p class="text-black">Camara name: <strong>{{ data.camera.full_name }} ({{ data.camera.name }})</strong></p>
+    </div>
+</div>
